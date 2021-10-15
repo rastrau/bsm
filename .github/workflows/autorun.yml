@@ -1,4 +1,4 @@
-name: Get shared-mobility data
+name: Get data
 
 on:
   schedule:
@@ -26,7 +26,7 @@ jobs:
         
     - name: Run Python script
       run: |
-        python get-shared-mobility-data.py
+        python bsm.py
    
     - name: Push data to repo
       uses: github-actions-x/commit@v2.7
