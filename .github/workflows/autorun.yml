@@ -34,5 +34,5 @@ jobs:
         push-branch: 'main'
         commit-message: 'Add current data'
         force-add: 'true'
-        files: data.*
+        files: 20*.zip
         name: autoupdate
