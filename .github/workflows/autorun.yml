@@ -40,7 +40,7 @@ jobs:
         python bsm.py
 
     - name: Push data to repo
-      uses: github-actions-x/commit@v2.7
+      uses: github-actions-x/commit
       with:
         push-branch: 'main'
         commit-message: 'Add current data'
